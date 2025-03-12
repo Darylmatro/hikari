@@ -49,13 +49,19 @@ const Artists = () => {
   ];
 
   return (
+<<<<<<< HEAD
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-gradient-to-b from-gray-50 to-white">
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-center mb-8 sm:mb-16">
+=======
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-center mb-8 sm:mb-12">
+>>>>>>> 3cbc1bb (Ajout des modifications: bouton réserver et ajustement espace blanc)
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-500">
           Artistes de Rennes
         </span>
       </h1>
 
+<<<<<<< HEAD
       <div className="grid grid-cols-1 gap-12">
         {artists.map((artist) => (
           <div
@@ -126,6 +132,68 @@ const Artists = () => {
                   </div>
                 </div>
               </div>
+=======
+      <div className="grid grid-cols-1 gap-6">
+        {artists.map((artist) => (
+          <div
+            key={artist.id}
+            className="group bg-white rounded-2xl shadow-lg hover:shadow-xl overflow-hidden transform transition-all duration-300 hover:-translate-y-2 flex flex-col md:flex-row"
+          >
+            <div className="relative overflow-hidden w-full md:w-1/3">
+              <img
+                src={artist.image}
+                alt={artist.name}
+                className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
+                loading="lazy"
+              />
+            </div>
+
+            <div className="p-6 flex flex-col justify-between w-full md:w-2/3">
+              <div>
+                <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2 group-hover:text-indigo-600 transition-colors duration-300">
+                  {artist.name}
+                </h2>
+                <p className="text-indigo-600 font-medium text-lg mb-4">
+                  {artist.genre}
+                </p>
+                <p className="text-gray-600 mb-4 leading-relaxed">
+                  {artist.description}
+                </p>
+
+                <div className="mb-4">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                    Chansons Populaires
+                  </h3>
+                  <ul className="space-y-1">
+                    {artist.popularSongs.map((song, index) => (
+                      <li key={index} className="text-gray-600">
+                        • {song}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                <div className="mb-4">
+                  <h3 className="text-lg font-semibold text-gray-800 mb-2">
+                    Prochains Spectacles
+                  </h3>
+                  <ul className="space-y-1">
+                    {artist.upcomingShows.map((show, index) => (
+                      <li key={index} className="text-gray-600">
+                        • {show}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+              
+              <button 
+                onClick={() => alert(`Réservation pour ${artist.name} effectuée !`)}
+                className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded self-start"
+              >
+                Réserver
+              </button>
+>>>>>>> 3cbc1bb (Ajout des modifications: bouton réserver et ajustement espace blanc)
             </div>
           </div>
         ))}
