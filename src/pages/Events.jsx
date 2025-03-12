@@ -6,7 +6,7 @@ const Events = () => {
       id: 1,
       title: "Les Trans Musicales 2024",
       date: "4-8 Décembre 2024",
-      image: "/images/transmusicales.jpg",
+      image: "/images/transmusic.jpg",
       description:
         "Le festival pionnier des musiques actuelles à Rennes, reconnu internationalement pour ses découvertes artistiques",
       location: "Parc Expo Rennes Aéroport & Centre-ville de Rennes",
@@ -26,7 +26,7 @@ const Events = () => {
       id: 2,
       title: "Festival Interceltique de Lorient",
       date: "9-18 Août 2024",
-      image: "/images/interceltique.jpg",
+      image: "/images/inter.jpg",
       description:
         "Le plus grand festival de musique celtique au monde, célébrant la culture bretonne et celtique",
       location: "Centre-ville de Lorient, Bretagne",
@@ -48,7 +48,7 @@ const Events = () => {
       id: 3,
       title: "Les Vieilles Charrues",
       date: "11-14 Juillet 2024",
-      image: "/images/charrues.jpg",
+      image: "/images/vieille.jpg",
       description:
         "Le plus grand festival de musique en France, au cœur de la Bretagne",
       location: "Site de Kerampuilh, Carhaix, Bretagne",
@@ -69,7 +69,7 @@ const Events = () => {
       id: 4,
       title: "Les Tombées de la Nuit",
       date: "3-7 Juillet 2024",
-      image: "/images/tombees.jpg",
+      image: "/images/tombe.jpg",
       description:
         "Festival des arts de la rue et spectacles insolites dans la ville de Rennes",
       location: "Différents lieux dans Rennes",

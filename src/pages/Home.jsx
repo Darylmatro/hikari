@@ -6,7 +6,7 @@ const Home = () => {
       id: 1,
       title: "Les Trans Musicales 2024",
       date: "4-8 Décembre 2024",
-      image: "/images/transmusicales.jpg",
+      image: "/images/transmusic.jpg",
       description:
         "Le festival pionnier des musiques actuelles à Rennes, reconnu pour ses découvertes artistiques",
     },
@@ -14,7 +14,7 @@ const Home = () => {
       id: 2,
       title: "Festival Interceltique",
       date: "9-18 Août 2024",
-      image: "/images/interceltique.jpg",
+      image: "/images/inter.jpg",
       description:
         "Le plus grand festival de musique celtique au monde à Lorient",
     },
@@ -22,7 +22,7 @@ const Home = () => {
       id: 3,
       title: "Les Vieilles Charrues",
       date: "11-14 Juillet 2024",
-      image: "/images/charrues.jpg",
+      image: "/images/vieille.jpg",
       description:
         "Le plus grand festival de musique en France, au cœur de la Bretagne à Carhaix",
     },
@@ -33,14 +33,14 @@ const Home = () => {
       id: 1,
       name: "Etienne Daho",
       genre: "Pop Rock",
-      image: "/images/artist1.jpg",
+      image: "/images/daho.jpg",
       description: "Icône de la pop française, originaire de Rennes",
     },
     {
       id: 2,
       name: "Nolwenn Korbell",
       genre: "Musique bretonne contemporaine",
-      image: "/images/artist2.jpg",
+      image: "/images/korbel.jpg",
       description:
         "Auteure-compositrice-interprète rennaise, mêlant tradition bretonne et modernité",
     },
@@ -48,7 +48,7 @@ const Home = () => {
       id: 3,
       name: "Mermonte",
       genre: "Post-Rock",
-      image: "/images/artist3.jpg",
+      image: "/images/mermonte.jpg",
       description: "Groupe instrumental rennais aux paysages sonores uniques",
     },
   ];
@@ -57,7 +57,7 @@ const Home = () => {
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-gradient-to-b from-gray-50 to-white">
       <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-center text-gray-800 mb-8 sm:mb-16">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-500">
-          Bienvenue en Bretagne
+          Welcome to Hikari
         </span>
       </h1>
 
