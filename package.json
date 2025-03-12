@@ -14,12 +14,8 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-<<<<<<< HEAD
-    "react-router-dom": "^6.0.0"
-=======
     "react-router-dom": "^6.0.0",
     "react-scripts": "^5.0.1"
->>>>>>> 3cbc1bb (Ajout des modifications: bouton réserver et ajustement espace blanc)
   },
   "devDependencies": {
     "autoprefixer": "^10.0.0",
@@ -39,3 +35,4 @@
     ]
   }
 }
+  

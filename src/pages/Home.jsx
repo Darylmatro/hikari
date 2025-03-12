@@ -1,3 +1,4 @@
+// src/pages/Home.jsx
 import React from "react";
 
 const Home = () => {
@@ -54,15 +55,15 @@ const Home = () => {
   ];
 
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-gradient-to-b from-gray-50 to-white">
-      <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-center text-gray-800 mb-8 sm:mb-16">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-black text-white">
+      <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-center text-gray-200 mb-8 sm:mb-16">
         <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-blue-500">
           Welcome to Hikari
         </span>
       </h1>
 
       <section className="mb-16">
-        <h2 className="text-2xl sm:text-3xl font-semibold text-center text-gray-700 mb-8">
+        <h2 className="text-2xl sm:text-3xl font-semibold text-center text-gray-200 mb-8">
           Festivals à ne pas manquer
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
@@ -99,7 +100,7 @@ const Home = () => {
       </section>
 
       <section className="mb-16">
-        <h2 className="text-2xl sm:text-3xl font-semibold text-center text-gray-700 mb-8">
+        <h2 className="text-2xl sm:text-3xl font-semibold text-center text-gray-200 mb-8">
           Artistes Rennais
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">

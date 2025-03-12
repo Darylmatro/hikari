@@ -89,6 +89,10 @@ const Events = () => {
     },
   ];
 
+  const handleReservation = (eventTitle) => {
+    alert(`Réservation pour l'événement "${eventTitle}" effectuée !`);
+  };
+
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
       <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-gray-800 mb-8 sm:mb-12 transition-all duration-300">
@@ -102,13 +106,12 @@ const Events = () => {
             className="group bg-white rounded-xl shadow-lg hover:shadow-xl overflow-hidden transform transition-all duration-300 hover:-translate-y-2"
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="relative overflow-hidden">
+              <div className="relative w-full h-[250px] md:h-[300px] flex justify-center items-center">
                 <img
                   src={event.image}
                   alt={event.title}
-                  className="w-full h-[400px] object-cover transform transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-cover transform transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300"></div>
               </div>
 
               <div className="p-6">
@@ -174,7 +177,10 @@ const Events = () => {
                   <p className="text-lg font-semibold text-indigo-600">
                     {event.ticketPrice}
                   </p>
-                  <button className="mt-4 bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors duration-300">
+                  <button
+                    onClick={() => handleReservation(event.title)}
+                    className="mt-4 bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors duration-300"
+                  >
                     Réserver
                   </button>
                 </div>

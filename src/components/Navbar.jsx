@@ -1,22 +1,34 @@
+// src/components/Navbar.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+const Navbar = () => {
   return (
-    <nav className="bg-gray-600 p-4">
-      <div className="container mx-auto flex justify-between">
-        <Link to="/" className="text-white font-bold">
-          Accueil
-        </Link>
-        <Link to="/artists" className="text-white font-bold">
-          Artistes
-        </Link>
-        <Link to="/events" className="text-white font-bold">
-          Événements
-        </Link>
-      </div>
+    <nav>
+      <ul className="flex space-x-4">
+        <li>
+          <Link to="/" className="text-blue-500 hover:text-blue-700">
+            Accueil
+          </Link>
+        </li>
+        <li>
+          <Link to="/artists" className="text-blue-500 hover:text-blue-700">
+            Artistes
+          </Link>
+        </li>
+        <li>
+          <Link to="/events" className="text-blue-500 hover:text-blue-700">
+            Événements
+          </Link>
+        </li>
+        <li>
+          <Link to="/reservation" className="text-blue-500 hover:text-blue-700">
+            Réservation
+          </Link>
+        </li>
+      </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;
