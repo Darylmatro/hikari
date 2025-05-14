@@ -13,17 +13,29 @@
 
 hikari/
 ├── public/
+
 │ └── images/ # Images des artistes et événements
+
 ├── src/
+
 │ ├── components/
+
 │ │ └── Navbar.jsx # Barre de navigation
+
 │ ├── pages/
+
 │ │ ├── Home.jsx
+
 │ │ ├── Artists.jsx
+
 │ │ └── Events.jsx
+
 │ ├── App.jsx
+
 │ └── main.jsx
+
 ├── package.json
+
 └── README.md
 
 bash
