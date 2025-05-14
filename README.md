@@ -6,32 +6,35 @@
 
 - 🎤 Affichage des artistes bretons avec description, chansons populaires et dates de concerts.
 - 🎪 Présentation détaillée des festivals de musique en Bretagne.
-- 🎨 Design moderne et responsive avec **mode sombre** intégré.
+- 🌙 Interface en **mode sombre** pour un meilleur confort visuel.
 - 🧭 Navigation fluide entre les pages (`Accueil`, `Artistes`, `Événements`).
 
 ## 📁 Structure du projet
 
-```bash
 hikari/
 ├── public/
-│   └── images/             # Images des artistes et événements
+│ └── images/ # Images des artistes et événements
 ├── src/
-│   ├── components/
-│   │   └── Navbar.jsx       # Barre de navigation
-│   ├── pages/
-│   │   ├── Home.jsx
-│   │   ├── Artists.jsx
-│   │   └── Events.jsx
-│   ├── App.jsx
-│   └── index.js
+│ ├── components/
+│ │ └── Navbar.jsx # Barre de navigation
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── Artists.jsx
+│ │ └── Events.jsx
+│ ├── App.jsx
+│ └── main.jsx
 ├── package.json
 └── README.md
 
-🚀 Lancer le projet localement
-1. Cloner le dépôt
 bash
 Copier
 Modifier
+
+## 🚀 Installation et lancement
+
+### 1. Cloner le dépôt
+
+```bash
 git clone https://github.com/marya213/hikari.git
 cd hikari
 2. Installer les dépendances
@@ -39,17 +42,17 @@ bash
 Copier
 Modifier
 npm install
-3. Lancer le serveur de développement
+3. Lancer l’application
 bash
 Copier
 Modifier
 npm run dev
-L'application sera disponible sur http://localhost:5173 (ou un autre port si celui-ci est déjà utilisé).
+Accède ensuite à l’interface via http://localhost:5173.
 
 🛠️ Technologies utilisées
 React (Vite)
 
-React Router
+React Router DOM
 
 Tailwind CSS
 
