@@ -34,7 +34,7 @@ Modifier
 
 ### 1. Cloner le dépôt
 
-```bash
+
 git clone https://github.com/marya213/hikari.git
 cd hikari
 2. Installer les dépendances
